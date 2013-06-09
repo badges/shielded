@@ -1,0 +1,25 @@
+{
+  "name": "shielded",
+  "version": "0.0.0",
+  "description": "try to solve https://github.com/olivierlacan/shields/issues/15?source=c ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cainus/shielded.git"
+  },
+  "keywords": [
+    "github",
+    "shield",
+    "shields",
+    "badge",
+    "badges"
+  ],
+  "author": "Gregg Caines",
+  "license": "BSD",
+  "dependencies": {
+    "inkscape": "0.0.2"
+  }
+}
