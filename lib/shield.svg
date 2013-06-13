@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-
 <svg
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:cc="http://creativecommons.org/ns#"
@@ -13,10 +11,10 @@
   id="Layer_1"
   x="0px"
   y="0px"
-  width="{{width}}px"
+  width="127px"
   height="18px"
-  viewBox="0 1.25 {{width}} 18"
-  enable-background="new 0 1.25 {{width}} 18"
+  viewBox="0 1.25 127 18"
+  enable-background="new 0 1.25 127 18"
   xml:space="preserve"
   inkscape:version="0.48.2 r9819"
   sodipodi:docname="travis_passing.svg">
@@ -110,40 +108,40 @@
   <g>
     <path
       fill="url(#gray)"
-      d="M32,19.25H3c-1.657,0-3-1.343-3-3v-12c0-1.657,1.343-3,3-3h{{vendorWidth}}V19.25z"
-      id="vendorbackground" />
+      d="M32,19.25H3c-1.657,0-3-1.343-3-3v-12c0-1.657,1.343-3,3-3h30V19.25z"
+      id="vendorBackground" />
     <path
-      fill="url(#{{statusColor}})"
-      d="M{{statusWidth}},19.25h42c1.657,0,3-1.343,3-3v-12c0-1.657-1.343-3-3-3H{{vendorWidth}}V19.25z"
+      fill="url(#green)"
+      d="M25,19.25h42c1.657,0,3-1.343,3-3v-12c0-1.657-1.343-3-3-3H30V19.25z"
       id="statusBackground" />
     <g id="statusText">
       <g opacity="1" id="dropShadowStatusText">
         <text
-          x="{{statusTextX}}"
+          x="34"
           y="14.8"
           transform="scale(1,0.93968341)"
           fill="#23630A"
           font-family="Open Sans"
           font-size="10"
-          id="text3170">{{statusText}}</text>
+          id="statusText1">status</text>
       </g>
       <g id="whiteStatusText">
         <text
-          x="{{statusTextX}}"
+          x="34"
           y="14"
           transform="scale(1,0.93968341)"
           fill="#FFFFFF"
           font-family="Open Sans"
           font-size="10"
-          id="text3174">{{statusText}}</text>
+          id="statusText2">status</text>
         <text
-          x="{{statusTextX}}"
+          x="34"
           y="14"
           transform="scale(1,0.93968341)"
           fill="#FFFFFF"
           font-family="Open Sans"
           font-size="10"
-          id="text31742">{{statusText}}</text>
+          id="statusText3">status</text>
       </g>
     </g>
     <g id="vendorText">
@@ -155,7 +153,7 @@
           fill="#000000"
           font-family="Open Sans"
           font-size="10"
-          id="text3180">{{vendorText}}</text>
+          id="vendorText1">vendor</text>
       </g>
       <g id="whiteVendorText">
         <text
@@ -165,12 +163,12 @@
           fill="#FFFFFF"
           font-family="Open Sans"
           font-size="10"
-          id="text3184">{{vendorText}}</text>
+          id="vendorText3">vendor</text>
         <text x="5" y="14" transform="scale(1,0.93968341)"
           fill="#FFFFFF"
           font-family="Open Sans"
           font-size="10"
-          id="text31842">{{vendorText}}</text>
+          id="vendorText2">vendor</text>
       </g>
     </g>
   </g>

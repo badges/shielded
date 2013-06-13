@@ -20,6 +20,8 @@
   "author": "Gregg Caines",
   "license": "BSD",
   "dependencies": {
-    "inkscape": "0.0.2"
+    "phantomjs": "1.9.0-6",
+    "inkscape": "0.0.2",
+    "svg2png": "1.0.0"
   }
 }

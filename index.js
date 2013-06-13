@@ -1,23 +1,11 @@
-var shield = require('./lib/shield');
-var fs = require('fs');
+var svg2png = require('./lib/svg2png');
 
-var vendorWidth = 30;
-var vendorText = 'vendor';
-var statusWidth = 25;  // TODO this number is strange.  why so small?
-var statusText = 'value';
-statusText = statusText.slice(0, -2) + ' ' + statusText.slice(-2);
-shield(vendorText, vendorWidth, statusText, statusWidth, 'green',
-               function(err, stdout, stderr){
-                  if (err) { 
-                    throw err; 
-                  }
-                  if (stdout){
-                    stdout.pipe(fs.createWriteStream("./asdf.png"));
-                  }
-                  if (stderr){
-                    stderr.pipe(process.stderr);
-                  }
-
-                });
-
+svg2png("./lib/shield.svg", "asdf.png", 2, function (err) {
+  // PNGs for everyone!
+  if (err){
+    console.log("Error:");
+    console.log(err);
+    process.exit(1);
+  }
+});
 
