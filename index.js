@@ -2,7 +2,7 @@ var shield = require('./lib/shield');
 
 var vendorText = "vendorText";
 var statusText = "statusText";
-var color = "color";
+var color = "red";
 var filename = "asdf.png";
 var scale = 1;
 

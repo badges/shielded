@@ -111,7 +111,7 @@
       d="M32,19.25H3c-1.657,0-3-1.343-3-3v-12c0-1.657,1.343-3,3-3h30V19.25z"
       id="vendorBackground" />
     <path
-      fill="url(#green)"
+      fill="url(#||color||)"
       d="M25,19.25h42c1.657,0,3-1.343,3-3v-12c0-1.657-1.343-3-3-3H30V19.25z"
       id="statusBackground" />
     <g id="statusText">
@@ -123,7 +123,7 @@
           fill="#23630A"
           font-family="Open Sans"
           font-size="10"
-          id="statusText1">status</text>
+          id="statusText1">||status||</text>
       </g>
       <g id="whiteStatusText">
         <text
@@ -133,7 +133,7 @@
           fill="#FFFFFF"
           font-family="Open Sans"
           font-size="10"
-          id="statusText2">status</text>
+          id="statusText2">||status||</text>
         <text
           x="34"
           y="14"
@@ -141,7 +141,7 @@
           fill="#FFFFFF"
           font-family="Open Sans"
           font-size="10"
-          id="statusText3">status</text>
+          id="statusText3">||status||</text>
       </g>
     </g>
     <g id="vendorText">
@@ -153,7 +153,7 @@
           fill="#000000"
           font-family="Open Sans"
           font-size="10"
-          id="vendorText1">vendor</text>
+          id="vendorText1">||vendor||</text>
       </g>
       <g id="whiteVendorText">
         <text
@@ -163,12 +163,12 @@
           fill="#FFFFFF"
           font-family="Open Sans"
           font-size="10"
-          id="vendorText3">vendor</text>
+          id="vendorText3">||vendor||</text>
         <text x="5" y="14" transform="scale(1,0.93968341)"
           fill="#FFFFFF"
           font-family="Open Sans"
           font-size="10"
-          id="vendorText2">vendor</text>
+          id="vendorText2">||vendor||</text>
       </g>
     </g>
   </g>
