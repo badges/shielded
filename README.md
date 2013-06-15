@@ -16,3 +16,10 @@ Options:
 
 ```
 
+##example output:
+![light gray](https://raw.github.com/cainus/shielded/master/examples/lightgray.png)
+
+![scale X 2](https://raw.github.com/cainus/shielded/master/examples/scale2.png)
+
+![lots of text](https://raw.github.com/cainus/shielded/master/examples/long.png)
+
