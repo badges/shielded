@@ -1,6 +1,6 @@
 {
   "name": "shielded",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "creates shield pngs for github ala https://github.com/olivierlacan/shields/ ",
   "main": "index.js",
   "scripts": {

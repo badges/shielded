@@ -2,9 +2,10 @@
 
 var shield = require('./lib/shield');
 var argv = require('optimist')
-    .usage('Usage: $0 --label=[string] --value=[string] --file=[filepath] --color=[green/yellowgreen/yellow/red/lightgray/] --scale=[num]')
+    .usage('Usage: $0 --label=[string] --value=[string] --file=[filepath] --color=[green/yellowgreen/yellow/red/lightgray/] --scale=[num] --tempdir=[path]')
     .demand(['label','value', 'file'])
     .default('color', 'green')
+    .default('tempdir', '/tmp')
     .default('scale', 1)
     .argv;
 
@@ -13,8 +14,9 @@ var statusText = argv.value;
 var color = argv.color;
 var filename = argv.file;
 var scale = argv.scale;
+var tempdir = argv.tempdir;
 
-shield(vendorText, statusText, color, filename, scale, function(err){
+shield(vendorText, statusText, color, filename, scale, tempdir, function(err){
   if (err){
     console.log("Error:");
     console.log(err);
