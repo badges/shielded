@@ -1,12 +1,14 @@
 {
   "name": "shielded",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "creates shield pngs for github ala https://github.com/olivierlacan/shields/ ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin" : "./shielded",
+  "bin": {
+    "shielded": "./shielded"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/cainus/shielded.git"
@@ -18,10 +20,14 @@
     "badge",
     "badges"
   ],
-  "author": "Gregg Caines",
+  "author": "Gregg Caines <gregg@caines.ca> (http://caines.ca)",
+  "contributors": [
+    "Domenic Denicola <domenic@domenicdenicola.com> (http://domenicdenicola.com)"
+  ],
   "license": "BSD",
   "dependencies": {
     "phantomjs": "1.9.0-6",
     "optimist": "0.5.2"
-  }
+  },
+  "devDependencies": {}
 }
