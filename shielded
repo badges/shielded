@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+var logger = require('log-driver').logger;
 var shield = require('./lib/shield');
 var argv = require('optimist')
     .usage('Usage: $0 --label=[string] --value=[string] --file=[filepath] --color=[green/yellowgreen/yellow/red/lightgray/] --scale=[num] --tempdir=[path]')
@@ -9,14 +10,17 @@ var argv = require('optimist')
     .default('scale', 1)
     .argv;
 
-var vendorText = argv.label;
-var statusText = argv.value;
-var color = argv.color;
-var filename = argv.file;
-var scale = argv.scale;
-var tempdir = argv.tempdir;
+var options = {
+  vendorText : argv.label,
+  statusText : argv.value,
+  color : argv.color,
+  filename : argv.file,
+  scale : argv.scale,
+  tempdir : argv.tempdir,
+  loglevel : false
+};
 
-shield(vendorText, statusText, color, filename, scale, tempdir, function(err){
+shield(options, function(err){
   if (err){
     console.log("Error:");
     console.log(err);
