@@ -115,12 +115,12 @@
       d="M25,19.25h42c1.657,0,3-1.343,3-3v-12c0-1.657-1.343-3-3-3H30V19.25z"
       id="statusBackground" />
     <g id="statusText">
-      <g opacity="1" id="dropShadowStatusText">
+      <g opacity="0.5" id="dropShadowStatusText">
         <text
           x="34"
           y="14.8"
           transform="scale(1,0.93968341)"
-          fill="#23630A"
+          fill="#000000"
           font-family="Open Sans"
           font-size="10"
           id="statusText1">||status||</text>
