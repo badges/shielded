@@ -1,6 +1,9 @@
 shielded
 ========
 
+[![npm version][npm-badge]][npm-url]
+[![Dependency Status][david-badge]][david-url]
+
 try to solve https://github.com/badges/shields/issues/15?source=c, *Shields as a Service*
 
 
@@ -35,3 +38,8 @@ shielded --label=worked --value=yep --file=file.png --color=green --scale=1  # c
 ## Notes:
 * This also works as a node.js library for use in node.js apps.  See https://github.com/badges/shield-server for an example of a web application that uses this.
 * @jbowes is a bad man and rewrote this service in golang:  https://github.com/jbowes/buckler .  It probably vastly outperforms this library.
+
+[npm-badge]: https://badge.fury.io/js/seneca-auth.svg
+[npm-url]: https://badge.fury.io/js/seneca-auth
+[david-badge]: https://david-dm.org/senecajs/seneca-auth.svg
+[david-url]: https://david-dm.org/senecajs/seneca-auth
