@@ -25,11 +25,11 @@ Options:
 
 
 ## Installation:
+
+Just install it globally from `npm`
 ```shell
-git clone git@github.com:badges/shielded.git  # clone this repo
-cd shielded                                   # go into the newly created directory
-npm install                                   # install the dependencies
-./shielded --label=worked --value=yep --file=file.png --color=green --scale=1  # create a png named file.png
+npm install -g shielded
+shielded --label=worked --value=yep --file=file.png --color=green --scale=1  # create a png named file.png
 ```
 
 ## Notes:
