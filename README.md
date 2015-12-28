@@ -1,7 +1,7 @@
 shielded
 ========
 
-try to solve https://github.com/olivierlacan/shields/issues/15?source=c 
+try to solve https://github.com/badges/shields/issues/15?source=c, *Shields as a Service*
 
 
 ```
@@ -16,22 +16,22 @@ Options:
 
 ```
 
-##example output:
-![light gray](https://raw.github.com/cainus/shielded/master/examples/lightgray.png)
+## Example output:
+![light gray](https://raw.github.com/badges/shielded/master/examples/lightgray.png)
 
-![scale X 2](https://raw.github.com/cainus/shielded/master/examples/scale2.png)
+![scale X 2](https://raw.github.com/badges/shielded/master/examples/scale2.png)
 
-![lots of text](https://raw.github.com/cainus/shielded/master/examples/long.png)
+![lots of text](https://raw.github.com/badges/shielded/master/examples/long.png)
 
 
-## installation:
+## Installation:
 ```shell
-git clone git@github.com:cainus/shielded.git  # clone this repo
+git clone git@github.com:badges/shielded.git  # clone this repo
 cd shielded                                   # go into the newly created directory
 npm install                                   # install the dependencies
 ./shielded --label=worked --value=yep --file=file.png --color=green --scale=1  # create a png named file.png
 ```
 
 ## Notes:
-* This also works as a node.js library for use in node.js apps.  See https://github.com/cainus/shield-server for an example of a web application that uses this.
+* This also works as a node.js library for use in node.js apps.  See https://github.com/badges/shield-server for an example of a web application that uses this.
 * @jbowes is a bad man and rewrote this service in golang:  https://github.com/jbowes/buckler .  It probably vastly outperforms this library.
