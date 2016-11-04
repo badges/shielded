@@ -1,6 +1,8 @@
 shielded
 ========
 
+[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](http://github.com/badges/stability-badges)
+
 try to solve https://github.com/olivierlacan/shields/issues/15?source=c 
 
 
